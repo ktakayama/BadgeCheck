@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B9DFD7E12020AF1F006A970E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFD7E02020AF1F006A970E /* AppDelegate.swift */; };
-		B9DFD7E32020AF1F006A970E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFD7E22020AF1F006A970E /* ViewController.swift */; };
 		B9DFD7E62020AF1F006A970E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DFD7E42020AF1F006A970E /* Main.storyboard */; };
 		B9DFD7E82020AF1F006A970E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DFD7E72020AF1F006A970E /* Assets.xcassets */; };
 		B9DFD7EB2020AF1F006A970E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DFD7E92020AF1F006A970E /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		B9DFD7DD2020AF1F006A970E /* BadgeCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadgeCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DFD7E02020AF1F006A970E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9DFD7E22020AF1F006A970E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9DFD7E52020AF1F006A970E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9DFD7E72020AF1F006A970E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DFD7EA2020AF1F006A970E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				B9DFD7E02020AF1F006A970E /* AppDelegate.swift */,
-				B9DFD7E22020AF1F006A970E /* ViewController.swift */,
 				B9DFD7E42020AF1F006A970E /* Main.storyboard */,
 				B9DFD7E72020AF1F006A970E /* Assets.xcassets */,
 				B9DFD7E92020AF1F006A970E /* LaunchScreen.storyboard */,
@@ -136,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DFD7E32020AF1F006A970E /* ViewController.swift in Sources */,
 				B9DFD7E12020AF1F006A970E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,11 +272,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BadgeCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.aill.BadgeCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -290,11 +287,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BadgeCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.aill.BadgeCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
